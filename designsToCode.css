@@ -1,0 +1,38 @@
+.container {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  height: 60px;
+  background-color: grey;
+  position: fixed;
+  width: 100%;
+  font-size: 20px;
+}
+
+nav > li {
+  padding-top: 20px;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+  float: right;
+  margin-right: 100px;
+
+}
+
+nav li {
+  display: inline-block;
+  color: purple;
+  margin-left: 5px;
+}
+
+nav a:hover {
+  color: black;
+}
